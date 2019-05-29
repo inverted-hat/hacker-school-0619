@@ -11,7 +11,8 @@
     <link rel="stylesheet" href="css/theme/white.css">
 
     <!-- Theme used for syntax highlighting of code -->
-    <link rel="stylesheet" href="lib/css/monokai.css">
+    <link rel="stylesheet" href="css/plugin/monokai.css">
+    <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,400i,600,600i&display=swap" rel="stylesheet">
 
     <!-- Printing and PDF exports -->
     <script>
@@ -25,7 +26,41 @@
 <body>
 <div class="reveal">
     <div class="slides">
-        <section>Slide 1</section>
+        <section style="font-size: 35px;">
+            <table width="100%">
+                <tr>
+                    <td>Zeilenumbruch</td>
+                    <td>
+                        <pre><code class="hljs html">Vor Umbruch<br>Nach Umbruch</code></pre>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Überschrift</td>
+                    <td>
+                        <pre><code class="hljs html"><h1>Überschrift</h1></code></pre>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Bild</td>
+                    <td>
+                        <pre><code class="hljs html"><img src="Link zum Bild"></code></pre>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Link</td>
+                    <td>
+                        <pre><code class="hljs html"><a href="https://www.google.com/">Linktext</a></code></pre>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Absatz</td>
+                    <td>
+                        <pre><code class="hljs html"><p>Text eines Absatzes</p></code></pre>
+                    </td>
+                </tr>
+            </table>
+            Hilfreiche Seiten: <a href="https://www.w3schools.com/" target="_blank">w3schools</a> & <a href="https://wiki.selfhtml.org/" traget="_blank">SELFHTML</a>
+        </section>
         <section>Slide 2</section>
     </div>
 </div>
@@ -37,11 +72,10 @@
     // - https://github.com/hakimel/reveal.js#configuration
     // - https://github.com/hakimel/reveal.js#dependencies
     Reveal.initialize({
+        controls: false,
+        progress: false,
         dependencies: [
-            { src: 'plugin/markdown/marked.js' },
-            { src: 'plugin/markdown/markdown.js' },
-            { src: 'plugin/notes/notes.js', async: true },
-            { src: 'plugin/highlight/highlight.js', async: true }
+            { src: 'js/plugin/highlight.js', async: true }
         ]
     });
 </script>

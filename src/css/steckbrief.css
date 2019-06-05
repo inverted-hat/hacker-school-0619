@@ -8,9 +8,10 @@ html, body {
 h1 {
     padding: 50px;
     margin: 0;
-    font-size: 48px;
+    font-size: 50px;
     font-weight: bolder;
     background: lightcoral;
+    text-shadow: 2px 1px 2px;
 }
 
 img {
@@ -30,7 +31,7 @@ img {
   }
 
 div {
-    background: lightgrey;
+    background: lightcoral;
     position: relative;
     padding: 50px;
 }
@@ -52,13 +53,13 @@ p {
 }
 
 #dozenten td, #dozenten th {
-    border: solid 1px lightcyan;
+    border: solid 1px grey;
     padding: 12px 0 12px 8px;
     text-align: left;
 }
 
 #dozenten th {
-    background-color: grey;
+    background-color: darkslategrey;
     color: white;
     font-weight: bold;
     font-size: 20px;

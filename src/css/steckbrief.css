@@ -11,7 +11,7 @@ h1 {
     font-size: 50px;
     font-weight: bolder;
     background: lightcoral;
-    text-shadow: 2px 1px 2px;
+    text-shadow: 50px 40px 10px;
 }
 
 img {
@@ -19,13 +19,13 @@ img {
     margin: 50px 0 50px 0;
     border: solid 2px lightcoral;
     box-shadow: 2px 5px 5px lightgrey;
-    /* Falls sie richtig weit kommen
-    animation: sliding 10s 999;
+    /* Animationen, falls sie richtig weit kommen
+    animation: myAnimation 10s 999;
     animation-direction:normal;
     */
 }
 
-  @keyframes sliding {
+  @keyframes myAnimation {
     0%   {left: 0%;}
     25%  {left: 25%;}
     75%  {left: -25%;}

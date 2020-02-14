@@ -2,9 +2,9 @@
 Mit CSS kannst du das Aussehen (z.B. Hintergrundfarbe) deiner Seite verändern. Das Aussehen wird über CSS-Regeln bestimmt.  
 CSS wird ein einer extra Datei geschrieben. Die Dateiendung ist immer .css.
 
-- [CSS und HTML verbinden](##CSS und HTML verbinden)
-- [Klassen](##Klassen)
-- [CSS-Regeln](##CSS-Regeln)
+- [CSS und HTML verbinden](#css-und-html-verbinden)
+- [Klassen](#klassen)
+- [CSS-Regeln](#css-regeln)
 
 
 ## CSS und HTML verbinden
@@ -30,6 +30,6 @@ In deiner CSS Datei kannst du deinen Klassennamen jetzt benutzen um das Aussehen
 ```
 Vor deinen Klassennamen kommt in CSS immer ein `.`. In den geschweiften Klammern gibst du mit CSS-Regeln an wie das Element mit dieser Klasse aussehen soll.
 
-##CSS-Regeln
+## CSS-Regeln
 Mit CSS-Regeln bestimmst du wie deine HTML Elemente aussehen sollen. Mit ihnen kannst du zum Beispiel die Größe oder Hintergrundfarbe eines Elements ändern.  
 CSS-Regeln bestehen immer aus zwei Teilen. 

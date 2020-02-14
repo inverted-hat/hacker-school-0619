@@ -2,25 +2,25 @@
 
 ## Ablauf
 
-### Vorstellungsrunde 
+### Vorstellungsrunde
 Wir stellen uns kurz vor, die Jugendlichen stellen sich kurz vor
 
 ### Gruppen bilden
 Die Jugendlichen finden sich selbst zu 2er Gruppen zusammen (dann erst den Laptop aushändigen?)
 
-### Theoretische Einleitung
+### Theoretische Einleitung (Jens)
 Editor öffnen, HTML File mit Hallo Welt anlegen und im Browser öffnen
 
-### HTML Basics
+### HTML Basics (Jens)
 Wir erstellen einen Steckbrief mit den Elementen Headline, Image, Paragraph und Table. Dabei erklären wir die Syntax. Danach machen die Gruppen ihren eigenen Steckbrief.
 
-### Eigene Webseite
+### Eigene Webseite (Jan)
 Mit Stift und Papier (mit Browser Vordruck) anfangen
 Wir erstellen einen Steckbrief mit den Elementen Headline, Image, Paragraph und Table. Dabei erklären wir die Syntax. Danach machen die Gruppen ihren eigenen Steckbrief.
 
-### Stock Photos
+### Stock Photos (Jens)
 
-### Spannende Links
+### Spannende Links (Jan)
 Geile Seiten
 Giphy, Emojis, Youtube Videos einbetten 
 
@@ -31,12 +31,15 @@ Bringt morgen eure USB Sticks mit
 
 ### Recap Tag 1
 
-### CSS Basics
+### Mobile mit dem Inspector (Jens)
+
+### CSS Basics (Jan)
 Anhand des Steckbriefs erklären wir was eine Klasse ist und wie ich diese benutze um mit CSS die Hintergrundfarbe, Größe, Padding, Margin ändern, text-align. CSS in eigenem File.
+:hover
+Color Picker
 
-### Schrift mit CSS
-Inspector
-Weiteres Element: span. Schriftgröße, -farbe, -art und –weight.
+### Schrift mit CSS (Jan)
+Weiteres Element: span. Schriftgröße, -farbe, und –weight.
 
-### CSS animations
+### CSS animations (Jan)
 Falls sie super schnell sind

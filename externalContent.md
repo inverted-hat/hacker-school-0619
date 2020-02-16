@@ -3,7 +3,7 @@ Du kannst auf deiner Seite Inhalt von anderen Seiten einbinden.
 
 ## GIFs
 <img src="https://media.giphy.com/media/5VKbvrjxpVJCM/giphy.gif" width="250">   
-Gifs bindest du wie jedes andere Bild in deine Seite ein. Eine große Auswahl an GIFs findest du auf [Giphy](https://giphy.com/). Such dort nach einem Gif was dir gefällt. Klicke es an und klicke dann Media. Kopiere die URL die neben 'Source' steht. Die kopierten URL gibst du in deinem img HTML Element als src an:
+Gifs bindest du wie jedes andere Bild in deine Seite ein. Eine große Auswahl an GIFs findest du auf [Giphy](https://giphy.com/). Such dort nach einem Gif was dir gefällt. Klicke es an und klicke dann Media. Kopiere die URL die neben 'Source' steht. Die kopierten URL gibst du in deinem img HTML Element als src an:  
 ```html
 <img src="https://media.giphy.com/media/5VKbvrjxpVJCM/giphy.gif">
 ```

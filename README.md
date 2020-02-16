@@ -14,7 +14,8 @@
 
 ## Kursinhalte
 [HTML](HTML.md)  
-[CSS](CSS.md)
+[CSS](CSS.md)  
+[GIFs, Emojis und Videos](externalContent.md)
 
 ## Nützliche Seiten
 [SELFHTML](https://wiki.selfhtml.org/wiki/Startseite)  

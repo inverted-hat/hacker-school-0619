@@ -8,6 +8,16 @@ Beim Klick mit dem Mauszeiger auf so einen Link lädt automatisch die verlinkte 
 # HTML Dateien
 
 Du schreibst HTML mit einem Texteditor (z.B. Atom oder Microsoft Code) in einer Textdatei mit der Dateiendung `.html`, z.B. `index.html` oder `steckbrief.html`.
+Du kannst auch jeden anderen Texteditor verwenden, hilfreich ist jedoch eine farbliche Hervorhebung oder Auto-Vervollständigung von HTML Befehlen, was gute Texteditoren können.
+
+- [HTML Befehle](#html-befehle)
+- [HTML Grundgerüst](#html-grundgerüst)
+    - [Der `<!DOCTYPE html>` Befehl](#der-doctype-html-befehl)
+    - [Der `<html></html>` Befehl](#der-htmlhtml-befehl)
+    - [Der `<head></head>` Befehl](#der-headhead-befehl)
+    - [Der `<meta>` Befehl](#der-meta-befehl)
+    - [Der `<title></title>` Befehl](#der-titletitle-befehl)
+    - [Der `<body></body>` Befehl](#der-bodybody-befehl)
 
 ## HTML Befehle
 
@@ -57,14 +67,14 @@ Ganz am Ende der HTML Seite wird mit `</html>` der Befehl wieder beendet.
 Als nächstes folgt mit `<head>` ein Block an weiteren Informationen über deine Webseite, die auch wieder hauptsächlich für Suchmaschinen gedacht sind.
 Auch dieser Befehl muss am Ende des Blocks wieder mit einem `</head>` beendet werden. 
 
-#### Der `<meta>` Befehl
+### Der `<meta>` Befehl
 
 Eine wichtige Information für Suchmaschinen ist, welche Buchstaben in deinen Texten vorkommen werden.
 Dies wird über den Befehl `<meta>` mit der Zusatzinformation `charset="UTF-8"` angegeben.
 Damit kannst du Webseiten erstellen, die z.B. Umlaute wie äöü oder aber auch Emojis 😀 enthalten.
 Auch dieser Befehl gehört zu den wenigen Ausnahmen, die nicht mit spitzer Klammer und Schrägstich `</` beendet werden müssen!
 
-#### Der `<title></title>` Befehl
+### Der `<title></title>` Befehl
 
 Wenn deine Webseite einen Titel haben soll, schreibst du ihn direkt nach dem `<title>` Befehl und schließt diesen Befehl wieder mit `</title>` ab.
 Manche Browser zeigen diesen Titel im oberen Rahmen eines Browser Tabs an, damit du bei mehreren geöffneten Webseiten auf unterschiedlichen Tabs bereits auf einen Blick sehen kannst, welche Webseite in welchen Tab geöffnet ist.

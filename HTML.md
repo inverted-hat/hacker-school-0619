@@ -1,13 +1,13 @@
 # HTML
 
-Mit HTML kannst du Webseiten erstellen, die in einem Web Browser wie z.B. Chrome, Firefox, Safari oder Edge angezeigt werden können. 
+Mit HTML kannst du Webseiten erstellen, die in einem Browser wie z.B. Chrome, Firefox, Safari oder Edge angezeigt werden können. 
 Auf deiner Webseite können Texte stehen, du kannst aber auch Multimedia Inhalte wie Bilder und Filme in deine Webseite einbetten.
 Eine besondere Stärke von HTML ist die Verknüpfung von deiner Webseite zu anderen Webseiten:
-beim Klick mit dem Mauszeiger auf so einen Link lädt automatisch die verlinkte Webseite und wird im Browser angezeigt.
+beim Klick mit dem Mauszeiger auf so einen Link lädt automatisch die verknüpfte Webseite und wird im Browser angezeigt.
 
 # HTML Dateien
 
-Du schreibst HTML mit einem beliebigen Texteditor in einer Textdatei mit der Dateiendung `.html`, z.B. `index.html` oder `steckbrief.html`.
+Du schreibst HTML Quellcode mit einem beliebigen Texteditor in einer Textdatei mit der Dateiendung `.html`, z.B. `index.html` oder `steckbrief.html`.
 Moderne Texteditoren wie Atom oder Visual Studio Code sind sehr hilfreich, weil sie deinen HTML Quellcode zum leichteren Verständnis farblich hervorheben können.
 Solche Editoren können dir auch bereits beim Tippen der ersten Buchstaben eines HTML Befehls vorschlagen, wie der Befehl korrekt zuende geschrieben wird.
 
@@ -103,7 +103,7 @@ Damit kannst du Webseiten erstellen, die z.B. Umlaute wie äöü oder aber auch 
 <meta charset="UTF-8">
 ```
 
-Auch dieser Befehl gehört zu den wenigen Ausnahmen, die nicht mit spitzer Klammer und Schrägstich `</` beendet werden müssen!
+Auch dieser Befehl gehört zu den wenigen Ausnahmen, die nicht mit spitzer Klammer und Schrägstrich `</` beendet werden müssen!
 
 ### Der `<title></title>` Befehl
 
@@ -133,7 +133,7 @@ Hier gibt's die coolsten Infos!
 
 ## Inhalte verfassen
 
-Dein HTML Grundgerüst gilt es mit Inhalt zu füllen. Deine Inhalte können normale Texte, aber auch Texte als Überschriften, Verknüpfungen auf andere Webseiten, Texte in Tabellen oder Bilder sein.
+Dein HTML Grundgerüst gilt es mit Inhalt zu füllen. Deine Inhalte können normale Texte, aber auch Texte als Überschriften, Verknüpfungen auf andere Webseiten, Bilder oder Texte in Tabellen sein.
 
 ### Normaler Text
 
@@ -156,7 +156,7 @@ Dies ist ein normaler Text.
 Und dieser Satz soll in eine neue Zeile.
 ```
 
-Auch dieser Befehl gehört zu den wenigen Ausnahmen, die nicht mit spitzer Klammer und Schrägstich `</` beendet werden müssen!
+Auch dieser Befehl gehört zu den wenigen Ausnahmen, die nicht mit spitzer Klammer und Schrägstrich `</` beendet werden müssen!
 
 ### Überschriften: die `<h1></h1>` bis `<h6></h6>` Befehle
 
@@ -191,7 +191,14 @@ Die Angabe erfolgt entweder in genauen Pixelzahlen oder mit Prozentzahlen, die d
 <img src="sonic-the-hedgehog.png" height="33%">
 ```
 
-Auch dieser Befehl gehört zu den wenigen Ausnahmen, die nicht mit spitzer Klammer und Schrägstich `</` beendet werden müssen!
+Du kannst auch Bilder einbetten, die nicht direkt im selben Verzeichnis liegen wie deine HTML Seite.
+Im Internet veröffentlichte Bilder haben eine vollständige Internetadresse, die du genauso angeben kannst:
+
+```html
+<img src="https://www.hackerschool.de/images/ld_home_ueberuns-2x.jpg">
+```
+
+Auch dieser Befehl gehört zu den wenigen Ausnahmen, die nicht mit spitzer Klammer und Schrägstrich `</` beendet werden müssen!
 
 #### Welches Bildformat kann was?
 
@@ -204,6 +211,26 @@ Es gibt aber ein paar besondere Details, die mit bestimmten Bildformaten besser 
 
 ### Verknüpfungen mit dem `<a></a>` Befehl erstellen
 
+Eine Verknüpfung zu einer weiteren Webseite ermöglicht dir der `<a></a>` Befehl.
+Innerhalb dieses Befehls gibst du den Text an, der als unterstrichener Link im Browser zu lesen sein soll.
+Die Zusatzinformation `href="..."` teilt dem Browser mit, welche Webseite er beim Klick mit dem Mauszeiger laden und anzeigen soll.
+Möchtest du nur zu einer Unterseite deiner Webseite verknüpfen, kannst du einfach den Dateinamen der Unterseite angeben.
+
+```html
+<a href="steckbrief.html">Mein Steckbrief</a>
+```
+
+Möchtest du eine Verknüpfung zu einer komplett anderen Webseite machen, musst du dem Browser die vollständige Internetadresse der Webseite mitteilen:
+
+```html
+<a href="https://www.hackerschool.de/">Die Hacker School</a>
+```
+
+Du kannst sogar auch Bilder klickbar machen und sie auf andere Webseiten verknüpfen lassen:
+
+```html
+<a href="https://www.otto.de/"><img src="otto.jpg"></a>
+```
 
 ### Tabellen mit dem `<table></table>` Befehl erstellen
 
@@ -229,3 +256,7 @@ Jede Tabellenzelle beginnt mit dem HTML Befehl `<td>` und wird auch wieder mit e
 ```
 
 **Tipp:** Benutze Einrückungen mit Leerzeichen oder der Tabulator Taste, um den Überblick über die verschiedenen Tabellenzeilen und Tabellenspalten zu behalten.
+
+**Idee:** Wäre es nicht cool, wenn man ausser Texten auch andere Sachen wie z.B. Bilder in Tabellenzellen platzieren könnte?
+Oder gar eine weitere Tabelle mit Zeilen und Spalten?
+Probier's doch einfach mal aus!

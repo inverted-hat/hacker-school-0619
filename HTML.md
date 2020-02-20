@@ -1,14 +1,15 @@
 # HTML
 
-Mit HTML kannst du Webseiten erstellen, die in einem Web Browser wie z.B. Google Chrome, Mozilla Firefox oder Microsoft Edge angezeigt werden können. 
+Mit HTML kannst du Webseiten erstellen, die in einem Web Browser wie z.B. Chrome, Firefox, Safari oder Edge angezeigt werden können. 
 Auf deiner Webseite können Texte stehen, du kannst aber auch Multimedia Inhalte wie Bilder und Filme in deine Webseite einbetten.
-Eine besondere Stärke von HTML ist die Verlinkung von deiner Webseite zu anderen Webseiten.
-Beim Klick mit dem Mauszeiger auf so einen Link lädt automatisch die verlinkte Webseite und wird im Browser angezeigt.
+Eine besondere Stärke von HTML ist die Verknüpfung von deiner Webseite zu anderen Webseiten:
+beim Klick mit dem Mauszeiger auf so einen Link lädt automatisch die verlinkte Webseite und wird im Browser angezeigt.
 
 # HTML Dateien
 
-Du schreibst HTML mit einem Texteditor (z.B. Atom oder Microsoft Code) in einer Textdatei mit der Dateiendung `.html`, z.B. `index.html` oder `steckbrief.html`.
-Du kannst auch jeden anderen Texteditor verwenden, hilfreich ist jedoch eine farbliche Hervorhebung oder Auto-Vervollständigung von HTML Befehlen, was gute Texteditoren können.
+Du schreibst HTML mit einem beliebigen Texteditor in einer Textdatei mit der Dateiendung `.html`, z.B. `index.html` oder `steckbrief.html`.
+Moderne Texteditoren wie Atom oder Visual Studio Code sind sehr hilfreich, weil sie deinen HTML Quellcode zum leichteren Verständnis farblich hervorheben können.
+Solche Editoren können dir auch bereits beim Tippen der ersten Buchstaben eines HTML Befehls vorschlagen, wie der Befehl korrekt zuende geschrieben wird.
 
 --
 
@@ -24,9 +25,9 @@ Du kannst auch jeden anderen Texteditor verwenden, hilfreich ist jedoch eine far
     - [Normaler Text](#normaler-text)
     - [Zeilenumbruch mit dem `<br>` Befehl](#zeilenumbruch-mit-dem-br-befehl)
     - [Überschriften: die `<h1></h1>` bis `<h6></h6>` Befehle](#überschriften-die-h1h1-bis-h6h6-befehle)
-    - [xxx](#yyy)
-    - [xxx](#yyy)
-    - [xxx](#yyy)
+    - [Bilder einbetten mit dem `<img>` Befehl](#bilder-einbetten-mit-dem-img-befehl)
+    - [Verknüpfungen mit dem `<a></a>` Befehl erstellen](#verknüpfungen-mit-dem-aa-befehl-erstellen)
+    - [Tabellen mit dem `<table></table>` Befehl erstellen](#tabellen-mit-dem-tabletable-befehl-erstellen)
 
 ## HTML Befehle
 
@@ -57,7 +58,7 @@ Eine Webseite hat immer das gleiche Grundgerüst aus bestimmten verschachtelten 
 </html>
 ```
 
-**Tipp:** Die Verschachtelung lässt sich einfacher nachvollziehen, wenn du Einrückungen mit mehreren Leerzeichen oder der Tabulator Taste einfügts. Diese stören nachher im Browser überhaupt nicht.
+**Tipp:** Die Verschachtelung lässt sich einfacher nachvollziehen, wenn du Einrückungen mit mehreren Leerzeichen oder der Tabulator Taste einfügts. Diese stören nachher beim Betrachten deiner Webseite im Browser überhaupt nicht.
 
 ### Der `<!DOCTYPE html>` Befehl
 
@@ -132,7 +133,7 @@ Hier gibt's die coolsten Infos!
 
 ## Inhalte verfassen
 
-Dein HTML Grundgerüst gilt es mit Inhalt zu füllen. Deine Inhalte können normale Texte, aber auch Texte als Überschriften, Texte in Tabellen oder Bilder sein.
+Dein HTML Grundgerüst gilt es mit Inhalt zu füllen. Deine Inhalte können normale Texte, aber auch Texte als Überschriften, Verknüpfungen auf andere Webseiten, Texte in Tabellen oder Bilder sein.
 
 ### Normaler Text
 
@@ -159,7 +160,7 @@ Auch dieser Befehl gehört zu den wenigen Ausnahmen, die nicht mit spitzer Klamm
 
 ### Überschriften: die `<h1></h1>` bis `<h6></h6>` Befehle
 
-Möchtest du einen Satz in deiner Webse als Überschrift besonders hervorheben, kannst du je nach gewünschter Schriftgröße die HTML Befehle `<h1></h1>` bis `<h6></h6>` verwenden.
+Möchtest du einen Satz in deiner Webseite als Überschrift besonders hervorheben, kannst du je nach gewünschter Schriftgröße die HTML Befehle `<h1></h1>` bis `<h6></h6>` verwenden.
 
 ```html
 <h1>Dies ist die allergrösste Überschrift</h1>
@@ -169,3 +170,62 @@ Möchtest du einen Satz in deiner Webse als Überschrift besonders hervorheben, 
 <h5>Diese Überschrift ist noch etwas kleiner</h5>
 <h6>Dies ist die kleinste Überschrift</h6>
 ```
+
+### Bilder einbetten mit dem `<img>` Befehl
+
+Bilder gibt es in unterschiedlichen Dateiformaten, wie z.B. `.gif`, `.jpg` oder `.png`.
+Wenn du eine Bilddatei einbetten möchtest, die **im selben Verzeichnis** wie deine HTML Datei liegt, kannst du den `<img>` Befehl nutzen.
+Die Zusatzinformation `src="..."` sagt dem Browser, wie die Bilddatei heisst.
+
+```html
+<img src="pokemon.jpg">
+```
+
+Du kannst auch die Grösse steuern, in der das Bild eingebettet werden soll.
+Hierfür kannst du die Zusatzinformationen `width="..."` für die Breite und/oder `height="..."` für die Höhe verwenden.
+Die Angabe erfolgt entweder in genauen Pixelzahlen oder mit Prozentzahlen, die den Anteil des Bildes an der gesamten Fenstergrösse bedeuten.
+
+```html
+<img src="minecraft.jpg" width="800" height="600">
+<img src="fortnite-floss.gif" width="50%">
+<img src="sonic-the-hedgehog.png" height="33%">
+```
+
+Auch dieser Befehl gehört zu den wenigen Ausnahmen, die nicht mit spitzer Klammer und Schrägstich `</` beendet werden müssen!
+
+#### Welches Bildformat kann was?
+
+Auf den ersten Blick macht es keinen Unterschied, ob dein Bild im Format `.gif`, `.jpg` oder `.png` gespeichert ist.
+Es gibt aber ein paar besondere Details, die mit bestimmten Bildformaten besser gelöst werden können:
+
+ * `.gif` Bilder können auch kurze Filme abspielen
+ * `.jpg` Bilder lassen sich schneller auch bei langsamer Internetverbindung laden
+ * `.png` Bilder können einen durchsichtigen Hintergrund haben
+
+### Verknüpfungen mit dem `<a></a>` Befehl erstellen
+
+
+### Tabellen mit dem `<table></table>` Befehl erstellen
+
+Tabellen bestehen aus mehreren Zeilen und Spalten, aus denen sich viele Tabellenzellen ergeben.
+In jede Tabellenzelle kannst du Texte, aber auch Überschriften, Verknüpfungen oder Bilder einfügen.
+Tabellen beginnst du mit dem HTML Befehl `<table>`, und am Ende schliesst du die fertige Tabelle auch wieder mit einem `</table>` ab.
+Für die erste Zeile in der Tabelle beginnst du innerhalb von `<table></table>` mit dem HTML Befehl `<tr>`, den du am Ende dieser Zeile auch wieder mit dem HTML Befehl `</tr>` abschliesst.
+Jede Tabellenzelle beginnt mit dem HTML Befehl `<td>` und wird auch wieder mit einem `</td>` abgeschlossen.
+
+```html
+<table>
+    <tr>
+        <td>Erste Zeile, erste Spalte</td>
+        <td>Erste Zeile, zweite Spalte</td>
+        <td>Erste Zeile, dritte Spalte</td>
+    </tr>
+    <tr>
+        <td>Zweite Zeile, erste Spalte</td>
+        <td> Zweite Zeile, zweite Spalte</td>
+        <td> Zweite Zeile, dritte Spalte</td>
+    </tr>
+</table>
+```
+
+**Tipp:** Benutze Einrückungen mit Leerzeichen oder der Tabulator Taste, um den Überblick über die verschiedenen Tabellenzeilen und Tabellenspalten zu behalten.

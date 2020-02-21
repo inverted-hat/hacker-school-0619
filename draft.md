@@ -16,9 +16,9 @@ Wir erstellen einen Steckbrief mit den Elementen Headline, Image, Paragraph und 
 
 ### Eigene Webseite (Jan)
 Mit Stift und Papier (mit Browser Vordruck) anfangen
-Wir erstellen einen Steckbrief mit den Elementen Headline, Image, Paragraph und Table. Dabei erklären wir die Syntax. Danach machen die Gruppen ihren eigenen Steckbrief.
 
 ### Stock Photos (Jens)
+Hinweis auf Copyright und Lizenzen
 
 ### Spannende Links (Jan)
 Geile Seiten

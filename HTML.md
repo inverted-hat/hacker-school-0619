@@ -1,6 +1,6 @@
 # HTML
 
-Mit HTML kannst du Webseiten erstellen, die in einem Browser wie z.B. Chrome, Firefox, Safari oder Edge angezeigt werden können. 
+Mit HTML kannst du Webseiten erstellen, die in einem Browser wie z.B. Chrome, Firefox, Safari oder Edge angezeigt werden können.
 Auf deiner Webseite können Texte stehen, du kannst aber auch Multimedia Inhalte wie Bilder und Filme in deine Webseite einbetten.
 Eine besondere Stärke von HTML ist die Verknüpfung von deiner Webseite zu anderen Webseiten:
 beim Klick mit dem Mauszeiger auf so einen Link lädt automatisch die verknüpfte Webseite und wird im Browser angezeigt.
@@ -85,7 +85,7 @@ Ganz am Ende der HTML Seite wird mit `</html>` der Befehl wieder beendet.
 ### Der `<head></head>` Befehl
 
 Als nächstes folgt mit `<head>` ein Block an weiteren Informationen über deine Webseite, die auch wieder hauptsächlich für Suchmaschinen gedacht sind.
-Auch dieser Befehl muss am Ende des Blocks wieder mit einem `</head>` beendet werden. 
+Auch dieser Befehl muss am Ende des Blocks wieder mit einem `</head>` beendet werden.
 
 ```html
 <head>
@@ -206,8 +206,11 @@ Auf den ersten Blick macht es keinen Unterschied, ob dein Bild im Format `.gif`,
 Es gibt aber ein paar besondere Details, die mit bestimmten Bildformaten besser gelöst werden können:
 
  * `.gif` Bilder können auch kurze Filme abspielen
+   * <img src="https://media.giphy.com/media/878n18Z0gJNAUXpubj/giphy.gif">
  * `.jpg` Bilder lassen sich schneller auch bei langsamer Internetverbindung laden
+   * <img src="https://www.nasa.gov/sites/default/files/1-bluemarble_west.jpg" width="800">
  * `.png` Bilder können einen durchsichtigen Hintergrund haben
+   * <img src="https://i.dlpng.com/static/png/6827149_preview.png" width="400">
 
 ### Verknüpfungen mit dem `<a></a>` Befehl erstellen
 

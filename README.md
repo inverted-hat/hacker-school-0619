@@ -22,3 +22,8 @@
 [w3schools](https://www.w3schools.com/)
 
 ## Eure Seiten
+[League of Legends](https://inverted-hat.github.io/hckrschl-html-css/src/02-20/lol/LeagueOfLegends.html)  
+[Minecraft](https://inverted-hat.github.io/hckrschl-html-css/src/02-20/minecraft/Test.html)  
+[Florian](https://inverted-hat.github.io/hckrschl-html-css/src/02-20/florian/flori.html)
+[BMX & Mountainbike](https://inverted-hat.github.io/hckrschl-html-css/src/02-20/tim-anna/TimundAnna.html)  
+[Minecraft Commandblocks](https://inverted-hat.github.io/hckrschl-html-css/src/02-20/tobias-ben/Minecraft%20Commandblock%20Commands.html)

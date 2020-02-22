@@ -1,0 +1,38 @@
+.command_block {
+  background-image: url(hintergrund.png);
+  color: white;
+}
+
+.t {
+  background-color: rgb(.2, .2, .2, .8);
+}
+
+.title {
+  color: black;
+  text-align:center;
+}
+.a{
+  text-align: center;
+  color: white;
+}
+.rob {
+  display: inline-block;
+  width: 50%;
+}
+.do {
+  display: inline-block;
+  width: 40%;
+}
+.m {
+  color: red;
+  background-color: black;
+}
+.x {
+  background-color: rgb(.2, .2, .2, .5);
+}
+.z {
+  width: 50%;
+}
+.u {
+  width: 50%;
+}

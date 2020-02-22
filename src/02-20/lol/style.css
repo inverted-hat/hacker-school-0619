@@ -1,0 +1,30 @@
+.LeagueofLegends {
+  background-image: url("LolBild.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  color: #fafafa;
+}
+
+.LoL {
+
+  width: 100%;
+  height: 10vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #D4AF37
+}
+.Standartcharaktere {
+  position: absolute;
+    top: 250px;
+    left: 350px;
+}
+.Spielplan {
+  position:  absolute;
+  top: 250px;
+  left: 700px;
+}
+.Blitzpartie {
+  background-color: #000000;
+}

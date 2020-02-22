@@ -3,12 +3,12 @@
 ### Freitag
 15:00 Uhr Begrüßung und Kurswahl  
 16:00 Uhr Beginn des Kurses  
-18:00 Uhr Abendessen  
+17:15 Uhr Abendessen  
 19:00 Uhr Ende
 
 ### Samstag
 10:00 Uhr Beginn mit Wiederholung von Freitag  
-13:00 Uhr Mittagessen  
+12:00 Uhr Mittagessen  
 15:00 Uhr Abschlusspräsentationen  
 16:00 Uhr Ende
 

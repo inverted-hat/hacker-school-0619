@@ -14,15 +14,15 @@ CSS wird ein einer extra Datei geschrieben. Die Dateiendung ist immer .css.
 	- [Abstand](#abstand)
 		- [Innen](#innen)
 		- [Außen](#außen)
-	- [Schrift](#schrift) 
+	- [Schrift](#schrift)
 		- [Größe](#größe)
 		- [Dicke](#dicke)
 		- [Farbe](#farbe)
-	- [Mausberührung](#mausberührung) 
+	- [Mausberührung](#mausberührung)
 
 
 ## CSS und HTML verbinden
-Du musst in deiner HTML Datei sagen wo sie die CSS Datei finden kann. Das geht so: 
+Du musst in deiner HTML Datei sagen wo sie die CSS Datei finden kann. Das geht so:
 ```html
 <head>
 	<link rel="stylesheet" type="text/css" href="deineDatei.css">
@@ -112,7 +112,7 @@ Als Standart sind Texte immer nach links ausgerichtet. Mit `text-align` bestimms
 Du kannst Texte mit `right` nacht rechts, `left` nach links und `justify ` als Block ausrichten.
 
 ### Rahmen
-Mit `border` kannst du einem Element einen Rahmen geben. Im folgenden Beispiel wird ein 2 Pixel breiter, durchgezogener, schwarzer Rahmen gesetzt: 
+Mit `border` kannst du einem Element einen Rahmen geben. Im folgenden Beispiel wird ein 2 Pixel breiter, durchgezogener, schwarzer Rahmen gesetzt:
  ```css
 .box {
 	border: 2px solid black;
@@ -129,10 +129,10 @@ Der Rahmen kann auch nur in eine Richtung gesetzt werden. Das folgende Beispiel 
 ```
 Mit `border-top` setzt du oben einen Rahmen, mit `border-right` rechts, mit `border-bottom` unten und mit `border-left` links.  
 Noch mehr Einstellungsmöglichkeiten zu Rahmen findest du [hier](https://www.w3schools.com/css/css_border.asp).
- 
+
 ### Abstand
 Du kannst den Außen- und Innenabstand eines HTML Elements setzen. Um den Unterschied zu verstehen, musst du wissen wie HTML Elemente aufgebaut sind. Sie bestehen aus Inhalt, Innenabstand, Rahmen und Außenabstand.  
-![Box-Modell](https://wiki.selfhtml.org/images/thumb/f/f3/Box-Modell.svg/600px-Box-Modell.svg.png)
+![Box-Modell](boxmodell.gif)
 #### Innen
 Mit `padding` setzt du den Innenabstand eines Elements. Im folgenden Beispiel wird der Innenabstand in alle Richtungen auf 8 Pixel gesetzt:
 ```css
@@ -178,7 +178,7 @@ Die Schriftdicke änderst du mit `font-weight`. So setzt du zum Beispiel die Dic
 	font-weight: bold;
 }
 ```
-Mit `bold` setzt du die Schriftdicke auf fett und mit `lighter` auf dünn. Du kannst die Schriftdicke auch mit einer Zahl zwischen 100 und 900 setzen. Dabei sind nur hunderter Schritte möglich. Du kannst also 100, 200, 300, 400, 500, 600, 700, 800 oder 900 angeben. 
+Mit `bold` setzt du die Schriftdicke auf fett und mit `lighter` auf dünn. Du kannst die Schriftdicke auch mit einer Zahl zwischen 100 und 900 setzen. Dabei sind nur hunderter Schritte möglich. Du kannst also 100, 200, 300, 400, 500, 600, 700, 800 oder 900 angeben.
 #### Farbe
 Die Schriftfarbe änderst du mit `color`. So setzt du zum Beispiel die Farbe auf grün:
 ```css
